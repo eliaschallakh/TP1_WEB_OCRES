@@ -1,0 +1,101 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+  }
+  img {
+    max-width: 30%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper ul  {
+  
+    margin: 0em 0 .5em;
+    text-align: center;
+  }
+  
+  .wrapper h1 {
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper ul li {
+  
+    display: inline;
+  
+  }
+  
+  .wrapper ul li a {
+  font-size: 0.95em;
+      font-weight: bold;
+      display: inline-block;
+      padding: .5em 1.5em;
+      color: white;
+      text-decoration: none
+  }
+  
+  .wrapper ul li a:hover {
+  
+  
+  text-decoration: underline;
+  }
+  
+  header
+  {
+    box-shadow: 0 10px 6px rgb(0 0 0 / 10%);
+      background: rgba(9,146,243,0.8);
+  }
+  
+  
+  body
+  {
+  margin: 0;
+  width: 100%;
+  font-family: Georgia;
+  
+  }
+  
+  section {
+  
+    border: solid 1.5px rgba(9,146,243,0.8);
+  }
+  
+  main {
+  margin-top: 50px;
+  }
+  
+  section {
+    margin: 0 100px 50px 100px;
+    padding: 10px;
+  
+  }
+  
+  main h1 {
+  
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .textStyle {
+  text-decoration: underline;
+  }
+  
+  section li{
+      margin: 10px 0;
+  
+  }
+  
+  /* Animation */
+  @keyframes fadein {
+    from {transform: translateY(30%); opacity: 0}
+    to {transform: translateY(0); opacity: 1}
+  }
+  
+  .title {
+    animation: fadein 1.5s forwards ease;
+  }
+  
